@@ -18,16 +18,16 @@ class DiscountBanner extends StatelessWidget {
         vertical: getProportionateScreenWidth(15),
       ),
       decoration: BoxDecoration(
-        color: Color(0xFF4A3298),
+        color: Colors.purple,
         borderRadius: BorderRadius.circular(20),
       ),
       child: Text.rich(
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "A Summer Surpise\n"),
+            TextSpan(text: "CUSTOM SERVICES\n"),
             TextSpan(
-              text: "Cashback 20%",
+              text: "25+ SERVICES AVAILABLE",
               style: TextStyle(
                 fontSize: getProportionateScreenWidth(24),
                 fontWeight: FontWeight.bold,
