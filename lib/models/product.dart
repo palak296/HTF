@@ -99,4 +99,4 @@ List<Product> demoProducts = [
 ];
 
 const String description =
-    "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+    "Your car can prove to be troublesome, especially when there is sudden breakdown. ReadyToGO has come up with a feature that will provide you with immediate breakdown services required to get you back on the road";

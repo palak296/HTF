@@ -30,7 +30,11 @@ class Body extends StatelessWidget {
                 color: Color(0xFFF6F7F9),
                 child: Column(
                   children: [
-                    ColorDots(product: product),
+                    Image.asset(
+                      "assets/images/emerser.jpg",
+                      height: SizeConfig.screenHeight * 0.4, //40%
+                    ),
+                   // ColorDots(product: product),
                     TopRoundedContainer(
                       color: Colors.white,
                       child: Padding(
