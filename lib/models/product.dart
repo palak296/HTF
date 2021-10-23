@@ -27,10 +27,9 @@ List<Product> demoProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/ps4_console_white_1.png",
-      "assets/images/ps4_console_white_2.png",
-      "assets/images/ps4_console_white_3.png",
-      "assets/images/ps4_console_white_4.png",
+      "assets/images/product1.jpg",
+      "assets/images/product2.jpg",
+      "assets/images/product3.jpg",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -38,7 +37,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Wireless Controller for PS4™",
+    title: "Improves Car Performance",
     price: 64.99,
     description: description,
     rating: 4.8,
@@ -48,7 +47,7 @@ List<Product> demoProducts = [
   Product(
     id: 2,
     images: [
-      "assets/images/Image Popular Product 2.png",
+      "assets/images/product2.jpg",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -56,7 +55,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Nike Sport White - Man Pant",
+    title: "Enhance Car's Value By 30%",
     price: 50.5,
     description: description,
     rating: 4.1,
@@ -65,7 +64,7 @@ List<Product> demoProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/glap.png",
+      "assets/images/product3.jpg",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -73,7 +72,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Gloves XC Omega - Polygon",
+    title: "Ensure Smoother Gearshifts",
     price: 36.55,
     description: description,
     rating: 4.1,
@@ -83,7 +82,7 @@ List<Product> demoProducts = [
   Product(
     id: 4,
     images: [
-      "assets/images/wireless headset.png",
+      "assets/images/product1.jpg",
     ],
     colors: [
       Color(0xFFF6625E),
@@ -91,7 +90,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Logitech Head",
+    title: "Improves Car Performance",
     price: 20.20,
     description: description,
     rating: 4.1,

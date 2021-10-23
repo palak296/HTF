@@ -9,7 +9,6 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -26,6 +25,16 @@ class _BodyState extends State<Body> {
           ProfileMenu(
             text: "Notifications",
             icon: "assets/icons/Bell.svg",
+            press: () {},
+          ),
+          ProfileMenu(
+            text: "Order History",
+            icon: "assets/icons/Cart Icon.svg",
+            press: () {},
+          ),
+          ProfileMenu(
+            text: "RC and Challan Info",
+            icon: "assets/icons/Parcel.svg",
             press: () {},
           ),
           ProfileMenu(

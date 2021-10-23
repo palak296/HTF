@@ -51,17 +51,7 @@ class ProductCard extends StatelessWidget {
                 style: TextStyle(color: Colors.black),
                 maxLines: 2,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "\$${product.price}",
-                    style: TextStyle(
-                      fontSize: getProportionateScreenWidth(18),
-                      fontWeight: FontWeight.w600,
-                      color: kPrimaryColor,
-                    ),
-                  ),
+
                   InkWell(
                     borderRadius: BorderRadius.circular(50),
                     onTap: () {},
@@ -84,8 +74,8 @@ class ProductCard extends StatelessWidget {
                     ),
                   ),
                 ],
-              )
-            ],
+
+
           ),
         ),
       ),
