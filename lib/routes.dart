@@ -9,6 +9,8 @@ import 'package:untitled/screens/otp/otp_screen.dart';
 import 'package:untitled/screens/profile/profile_screen.dart';
 import 'package:untitled/screens/sign_in/sign_in_screen.dart';
 import 'package:untitled/screens/splash/splash_screen.dart';
+import 'package:untitled/screens/chat/home_screen.dart';
+import 'package:untitled/screens/chat/chat_screen.dart';
 
 import 'screens/sign_up/sign_up_screen.dart';
 
@@ -26,4 +28,5 @@ final Map<String, WidgetBuilder> routes = {
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
+  ChatMainScreen.routeName: (context) => ChatMainScreen(),
 };

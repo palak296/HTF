@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:untitled/screens/home/home_screen.dart';
 import 'package:untitled/screens/profile/profile_screen.dart';
+import 'package:untitled/screens/chat/home_screen.dart';
+import 'package:untitled/maputil.dart';
 
 import '../constants.dart';
 import '../enums.dart';
@@ -50,11 +52,19 @@ class CustomBottomNavBar extends StatelessWidget {
               ),
               IconButton(
                 icon: SvgPicture.asset("assets/icons/Heart Icon.svg"),
-                onPressed: () {}
+                onPressed: () {
+                  Maputils.openMap();
+                },
               ),
               IconButton(
-                icon: SvgPicture.asset("assets/icons/Chat bubble Icon.svg"),
-                onPressed: () {},
+                icon: SvgPicture.asset(
+                  "assets/icons/Chat bubble Icon.svg",
+                  color: MenuState.message == selectedMenu
+                      ? kPrimaryColor
+                      : inActiveIconColor,
+                ),
+                onPressed: () =>
+                    Navigator.pushNamed(context, ChatMainScreen.routeName),
               ),
               IconButton(
                 icon: SvgPicture.asset(

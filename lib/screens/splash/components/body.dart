@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/screens/sign_in/sign_in_screen.dart';
 import '../../../constants.dart';
 import '../../../size_config.dart';
-import '../components/splash_content.dart';
+import 'splash_content.dart';
 import '../../../components/default_button.dart';
 
 
